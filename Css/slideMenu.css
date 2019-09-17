@@ -1,0 +1,46 @@
+.slideBar{
+ 
+    width: 350px;
+    height: 400px;
+    background-color: #0082f1;
+    position: fixed;
+    
+}
+.slideBar .menu {
+   
+
+}
+
+.slideBar .menu  li {
+
+    margin: 15px 15px;
+  
+  
+}
+
+.slideBar .menu  li a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    font-size: 22px;
+
+}
+.slideBar .menu  li a::after{
+    content:"";
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    bottom:-4px;
+    left: 0px;
+    transition: all .7s;
+
+}
+.slideBar .menu  li a:hover{
+    color: rgb(4, 88, 70);
+}
+.slideBar .menu  li a:hover::after{
+    width: 100%;
+    background-color: rgb(107, 5, 48);
+    transition: all .7s;
+}
